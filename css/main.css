@@ -1,0 +1,210 @@
+body 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+:any-link
+{
+  color: inherit;
+}
+
+:any-link:hover
+{
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-weight: 700;
+}
+
+.featurespp
+{
+    color: #8f8f8f;
+}
+
+.colored-section
+{
+    background-color: #4285b2;
+    color: #fff;
+}
+
+.white-section
+{
+    background-color: #fff;
+}
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+    /* tincat's "logo" */
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+    /* hamburger menu */
+.nav-item
+{
+    padding: 0 18px;   
+}
+
+    /* navbar's items */
+.nav-link
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.container-fluid
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+/*
+ * title section 
+ */
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.title-h1
+{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.phone-image
+{
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.download_button
+{
+    margin: 5% 3% 5% 0;
+}   
+
+
+/*
+ * features section
+ */
+#features 
+{
+    position: relative;
+    z-index: 1;
+} 
+
+.features-h3
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.features-box
+{
+    padding: 4.5%;
+}
+
+    /* Font Awesome icons color in the features section */
+.fas-style
+{
+    color: #79abcd;
+}
+
+    /* Font Awesome icons hovering color in the features section */
+.fas-style:hover
+{
+    color: #4285b2;
+}
+
+
+/*
+ * testimonials section
+ */
+.testimonials
+{
+    background-color: #79abcd;
+}
+
+.testimonials-h2
+{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.testimonials-image
+{
+    border-radius: 100%;
+    margin: /* 2% */ 20px;
+    width: 10%;
+}
+
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+
+/*
+ * ad slogan section
+ */
+.ad-slogan-h3
+{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+    /* Ad slogan btn */
+.download_button2
+{
+    margin: 5% 10px 0;
+}
+
+
+/* 
+ * Footer section
+ */
+.footer-box
+{
+  padding: 1.5rem 0.70rem;
+}
+
+.footer-p
+{
+    color: #8f8f8f;
+    font-weight: 600;
+}
+
+    /* website's behaviour on mobile devices */
+@media (max-width: 1028px)
+{
+    .title-h1, .testimonials-h2, .features-h3, .ad-slogan-h3{
+        font-size: 28px;
+    }
+
+    #title .container-fluid
+    {
+        text-align: center;
+    }
+
+    .phone-image
+    {
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    }
+}
