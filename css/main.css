@@ -206,4 +206,8 @@ h1, h2, h3, h4, h5, h6
         transform: rotate(0);
         width: 80%;
     }
+    
+    .testimonials-image{
+        width: 25%;
+    }
 }
